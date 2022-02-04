@@ -18,37 +18,39 @@ h2 {
 
 nav a {
 	text-decoration: none;
-	color: rgb(186, 137, 231);
+	color: rgb(0, 0, 0);
 }
 
 nav>a {
 	font-size: 24px;
-	color: rgb(186, 137, 231);
+	background-color: gray;
+	color: rgb(255, 255, 255);
 }
 
 nav>a:visited {
-	color: rgb(186, 137, 231);
+	color: rgb(255, 255, 255);
 }
 
 nav li {
 	background-color: lightpink;
 	font-size: 18px;
 	padding:10px;
-	border: 3px solid rgb(245, 184, 184);
+	border: 3px solid rgb(0, 0, 0);
 	display: inline-block;
     text-align: center;
+	margin-top: 10px;
 }
 
 nav li a:visited{
-	color: rgb(255,255,255);
+	color: rgb(0, 0, 0);
 }
 
 .active {
-    background-color: rgb(186, 137, 231);
+    background-color: rgb(193, 128, 255);
     font-weight: bold;
 	font-size: 24px;
 	text-transform: uppercase;
-	border:1px solid rgb(255, 255, 255);
+	border:1px solid rgb(147, 45, 243);
 }
 
 img {
